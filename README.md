@@ -1,4 +1,18 @@
-# Chirpy
+# Fork of Jekyll Chirpy theme
+
+**This is a fork of https://github.com/cotes2020/jekyll-theme-chirpy**.
+Commits that are not merged into the "upstream" repository (see above) are
+Copyright 2020 Felix Wolfsteller.
+
+As long as I am playing around, I will leave the links to the original demo,
+documentation etc. as in the upstream repository.
+
+Thanks to Cotes Chung, the original author of this jekyll theme.
+
+## Goal of the fork
+
+* remove everything not self-hostable (CDNs, disqus, google analytics)
+* if pleasant experience, apply the theme to https://fwolfst.github.io
 
 🌏 English • [简体中文](docs/README_zh-CN.md)
 
