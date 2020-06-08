@@ -50,14 +50,6 @@ layout: default
         </div>
         {% endif %}
 
-        <!-- page views -->
-        {% if site.google_analytics.pv.enabled %}
-        <div>
-          <span id="pv" class="pageviews"><i class="fas fa-spinner fa-spin fa-fw"></i></span>
-          views
-        </div>
-        {% endif %}
-
       </div> <!-- .post-meta -->
 
       <div class="post-content">
@@ -137,10 +129,6 @@ layout: default
     {% include related-posts.html %}
 
     {% include post-nav.html %}
-
-    {% if site.disqus.comments and page.comments %}
-      {% include disqus.html %}
-    {% endif %}
 
     </div> <!-- #post-extend-wrapper -->
 
